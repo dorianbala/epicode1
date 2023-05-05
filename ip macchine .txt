@@ -1,0 +1,12 @@
+kali linux
+192.168.50.100
+
+Metasploitable
+192.168.50.101
+
+
+windows 7
+192.168.50.102
+
+
+
