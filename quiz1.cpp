@@ -7,10 +7,10 @@ char r; /* r per risposta */
 int p ; /* p per punteggio dell'utente */
 
 printf("Benvenuto! Il gioco è un quiz con 3 domande, ciascuna con tre risposte, alla fine ti verrà dato un punteggio. \n");
-printf("Vuoi giocare al quiz? s-si, n-no "); /* chiediamo per la prima volta all'utente se vuole giocare*/
+printf("Vuoi giocare al quiz? a-si, b-no "); /* chiediamo per la prima volta all'utente se vuole giocare*/
 scanf(" %c", &g); /* inserisco la risposta dell utente nella variabile g */
 
-if(g == 's') { /*verifico se g è uguale a s quindi faccio partire il gioco*/
+if(g == 'a') { /*verifico se g è uguale a s quindi faccio partire il gioco*/
 do {  /* inizio del ciclo do while */
 p = 0; /* inizializzo p a 0*/
 
@@ -46,7 +46,7 @@ printf("Hai risposto bene a %d domande su 3\n", p); /*stampiamo in output il tot
 printf("Vuoi giocare di nuovo? s-si, n-no\n"); /*propongo all'utente di rigiocare*/
 scanf(" %c", &g); 
 
-} while (g == 's');
+} while (g == 'a');
 }
 return 0;
 }
